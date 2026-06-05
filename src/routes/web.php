@@ -15,4 +15,5 @@ use App\Http\Controllers\TestController;
 */
 
 Route::get('/',[TestController::class, 'index']);
+Route::get('/test/{text}',[TestController::class, 'index2']);
 

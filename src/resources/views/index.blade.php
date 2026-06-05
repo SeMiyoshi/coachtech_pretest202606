@@ -10,6 +10,15 @@
 
 <body>
   <h1>三好誠司です：文字表示確認</h1>
+  <p><?php echo $content ?></p>
+
+  <table>
+    <tr>
+      <th>パスパラメータ</th>
+      <td><?php echo $param ?></td>
+    </tr>
+  </table>
+
 </body>
 
 </html>
